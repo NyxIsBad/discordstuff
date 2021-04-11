@@ -1,0 +1,84 @@
+/*---------- CV Fixes ----------*/
+/*Updated 2021-04-08*/
+/*Stickers fix*/
+.stickerInspected-2EM4w- .stickerBackground-2XECKi, /*Sticker backgrounds when hovered*/
+.viewAllBackground-3Bn1vh{
+  background-color: rgba(255,255,255,0.07);
+}
+.wrapper-OxgYJ1 .row-2psonc{ /*Stickers lookup margins*/
+  column-gap: 8px !important;
+}
+.listItems-1uJgMC{ /*Fix preview in store*/
+  width: 100%;
+}
+/*Create New Server Menu*/
+.container-UC8Ug1{
+  background: rgba(0,0,0,.2) !important;
+  font: var(--main-font) !important;
+}
+/*Make Input Box Lighter*/
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem{
+  background: rgba(0,0,0,.2) !important;
+}
+/*Dashed border when replying*/
+.container-2fRDfG{
+  background: rgba(0,0,0,.2) !important;
+  border-bottom: 1px dashed var(--main-color);
+}
+/*Share Screen Modal Width by Addy*/
+.modalSize-cqUaws,.modalHeader-19eoYJ + div{
+  width: 600px !important;
+}
+/*Message Date Appearance Style by Addy*/
+.divider-JfaTT5{
+  border-top: thin solid rgba(0,0,0,0);
+}
+.divider-JfaTT5:before{
+  content: "";
+  height: 2px;
+  opacity: 0.4;
+  flex-grow: 1;
+  background: linear-gradient(to left,var(--from-gradient-color),var(--to-gradient-color));
+  margin-right: 0;
+  z-index: -1;
+}
+.divider-JfaTT5:after{
+  content: "";
+  height: 2px;
+  opacity: 0.4;
+  flex-grow: 1;
+  background: linear-gradient(to right,var(--from-gradient-color),var(--to-gradient-color));
+  margin-left: 0;
+  z-index: -1;
+}
+/*server folder transparency*/
+.folder-1hbNCn,.folder-1hbNCn:hover,.expandedFolderIconWrapper-Huv7rA,.expandedFolderIconWrapper-Huv7rA:hover{
+  background: transparent;
+}
+/*Yellow Permission Ticks*/
+.passthrough-1c2ewQ.selected-2YhbGh {background-color: #ffba00;}
+.passthrough-1c2ewQ:not(.selected-2YhbGh) polygon {fill: #ffba00;}
+/*Return scrollbars to 10px except main chat body*/
+.contentRegion-3nDuYy .contentRegionScroller-26nc1e::-webkit-scrollbar, /*Settings scroll right*/
+.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2::-webkit-scrollbar{ /*Settings scroll on left*/
+  width: 10px !important;
+}
+/*Get rid of tip at bottom of user popout*/
+.protip-YaFfgO{
+  display:none;
+}
+.theme-dark .lookGhost-2Fn_0-.colorGrey-2DXtkV{ /*Fix widgets button text not being right*/
+  color: #fff;
+}
+.categoryList-xW5xXr/*Stickers*/
+{
+  background: rgba(0,0,0,.1);
+}
+.fullScreen-1tMzXY .flexCenter-2Y_vCg{ /*Fullscreen screen share*/
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+}
+/*2021-03-24 reroll*/
+.iconContainer-2SYmeK.checked-1Gs3_E{
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
