@@ -1,0 +1,73 @@
+/*bg*/
+.theme-dark .appMount_fae9dd {
+  background: var(--background-overlay);
+}
+
+.theme-dark .app__00c92 {
+  background: transparent;
+}
+
+.theme-dark .bg__7adbf {
+  background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
+  z-index: -9999;
+}
+/*folders*/
+.theme-dark .expandedFolderBackground__1bec6 {
+    background: rgba(255,255,255,.07);
+    border-radius: 16px 16px 24px 24px;
+    transition: background-color .3s ease-in-out;
+}
+/*input*/
+.theme-dark .channelTextArea__56a36 {
+    background: rgba(0,0,0,.6);
+    transition: all .15s ease-in-out;
+}
+.theme-dark .channelTextArea__56a36 .scrollableContainer__33e06 {
+    background: rgba(0,0,0,0);
+    border: 2px solid rgba(0,0,0,0);
+}
+/*members*/
+.theme-dark .members__9f47b {
+    width: var(--members-width);
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
+.theme-dark .container_b2ce9c {
+    background-color: rgba(0,0,0,0);
+}
+/*chat*/
+.theme-dark .base__3e6af .chat__52833 {
+  background: transparent;
+}
+.theme-dark .appMount_fae9dd .layers_a40797, .theme-dark .appMount_fae9dd .layer_e552e0 {
+    background: rgba(0,0,0,0);
+}
+.theme-dark .base__3e6af .container__11d72 {
+    height: 48px;
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+    box-shadow: 0 0 10px rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+    color: rgba(255,255,255,.5);
+}
+.theme-dark .chat__52833 .content__1a4fe {
+    background: rgba(0,0,0,0);
+}
+.theme-dark .chatContent__5dca8, .resizeHandle_f1a098 {
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+}
+/*sidebar*/
+.theme-dark .sidebar_ded4b5 {
+    width: var(--channels-width);
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important;
+}
+.theme-dark .base__3e6af .chat__52833 {
+    background: rgba(0,0,0,0) !important;
+}
+.theme-dark .container__590e2 {
+    background: rgba(0,0,0,0) !important;
+}
+.theme-dark .panels__58331 {
+	background: transparent !important;
+}
+.theme-dark .container_ca50b9 {
+	background: transparent !important;
+}
