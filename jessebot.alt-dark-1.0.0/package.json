@@ -1,0 +1,32 @@
+{
+	"name": "alt-dark",
+	"displayName": "Alt Dark",
+	"description": "An improved dark theme based off of jessebot-theme. Supports HTML, CSS/Sass, JavaScript, JSON, Markdown and more.",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JessebotX/AltDark.git"
+	},
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"publisher": "Jessebot",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Alt Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Alt Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e6ccf70a-ae57-47d5-a947-3210f5be3e60",
+		"publisherId": "e81879b4-e0d3-4c0d-9a7b-c48c04d2901d",
+		"publisherDisplayName": "Jessebot",
+		"installedTimestamp": 1622556361068
+	}
+}
